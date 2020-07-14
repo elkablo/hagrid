@@ -1,0 +1,14 @@
+# Format of this file:
+#
+#  IFNAME	TYPE	ID	SECRET
+#
+# where
+#  IFNAME is tunnel interface name
+#  TYPE is none/fou/gue
+#  ID is peer identifier (just an integer)
+#  SECRET is shared secret with the peer (at most 64 characters)
+
+tun1	fou	123	secret1
+tun2	gue	100	secret2
+tun3	none	101	secret3
+
